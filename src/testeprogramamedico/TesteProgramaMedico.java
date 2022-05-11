@@ -5,6 +5,8 @@
  */
 package testeprogramamedico;
 
+import view.FormRegistro;
+
 /**
  *
  * @author Professor
@@ -16,6 +18,8 @@ public class TesteProgramaMedico {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        FormRegistro fr = new FormRegistro();
+        fr.show();
     }
     
 }
